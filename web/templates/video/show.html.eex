@@ -18,6 +18,11 @@
   </li>
 
   <li>
+    <strong>Category:</strong>
+    <%= @video.category.name %>
+  </li>
+
+  <li>
     <strong>Description:</strong>
     <%= @video.description %>
   </li>
